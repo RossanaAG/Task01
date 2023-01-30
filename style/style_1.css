@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**Inicio Estilo Index*/
+
+/*Inicio Estilo Imagen de Header*/
+
+.main-header{
+    background-image: url(../img/design1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.header-titulo{
+   -webkit-text-stroke: 2px black;
+    color: transparent; 
+    color: #FC4C02;
+    font-size: 60px; 
+    font-family: Calibri;
+}
+
+
+/*Inicio Estilo Barra de Navegación*/
+
+.nav-enlace{
+    display:inline-block;
+    background-color: black;
+    color: #FC4C02;
+    height: 100%;
+    padding: 10px 30px;
+    font-size:25px;
+    font-family: Tahoma; 
+    text-decoration: none;
+}
+nav{
+    float: left;
+    background-color: black;
+    padding: 10px;
+    margin: 80px 0px;
+    height: 295px;
+    line-height: 50px;
+}
+
+/*Inicio Estilo de Eventos*/
+
+.eventos-color{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.imagen-logo{
+    float:right;
+    padding-top: 0%;
+    width: 150px;
+    height: 150px;
+    
+}
+.title{
+    background-color: #FC4C02;
+    text-align: center;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.informe-evento{
+    padding: 10px;
+}
+
+.informe-evento h3{
+    font-size: 35px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    color:#FC4C02;
+    line-height: 100px;
+}
+
+.informe-evento p{
+    font-size:25px; 
+    font-family: Verdana; 
+    color:#F1C40F;
+    line-height: 25px;
+}
+
+/*Inicio de Estilo de About MDHL*/
+
+.about-section{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.about-info{
+    padding: 10px;
+}
+
+.about-info h3{
+    font-size: 35px; 
+    line-height: 10px; 
+    font-family: Verdana; 
+    color:#FC4C02;
+    line-height: 55px;
+
+}
+
+.about-info p{
+    font-size: 20px; 
+    font-family: Verdana; 
+    color:#F1C40F;
+}
+
+
+/*Inicio de Estilo de Contact*/
+.correo{
+    background-color: black;
+    height: 300px;
+    padding: 10px;
+    margin-top: 100px;
+    
+}
+
+.correo p{
+    font-size: 30px; 
+    font-family: Verdana; 
+    color: #F1C40F;
+}
+
+.correo a{
+    color:#ff8833;
+}
