@@ -1,10 +1,12 @@
+/*DISEÑO CSS STYLE_01*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/**Inicio Estilo Index*/
+/**############## Inicio de Estilo Index #################*/
 
 /*Inicio Estilo Imagen de Header*/
 
@@ -36,6 +38,7 @@
     font-family: Tahoma; 
     text-decoration: none;
 }
+
 nav{
     float: left;
     background-color: black;
@@ -53,6 +56,7 @@ nav{
     padding: 0px;
     
 }
+
 .imagen-logo{
     float:right;
     padding-top: 0%;
@@ -60,6 +64,7 @@ nav{
     height: 150px;
     
 }
+
 .title{
     background-color: #FC4C02;
     text-align: center;
@@ -86,7 +91,7 @@ nav{
     line-height: 25px;
 }
 
-/*Inicio de Estilo de About MDHL*/
+/**############## Inicio Estilo de About MDHL #################*/
 
 .about-section{
     background-color: black;
@@ -106,7 +111,6 @@ nav{
     font-family: Verdana; 
     color:#FC4C02;
     line-height: 55px;
-
 }
 
 .about-info p{
@@ -116,7 +120,7 @@ nav{
 }
 
 
-/*Inicio de Estilo de Contact*/
+/**############## Inicio de Estilo de Contact #################*/
 
 .correo{
     background-color: black;
